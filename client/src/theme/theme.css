@@ -1,0 +1,42 @@
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  --color-page: #ffffff;
+  --color-card: #f7f9fb;
+  --color-ink: #1c1c1c;
+  --color-muted: rgb(28 28 28 / 0.4);
+  --color-line: rgb(28 28 28 / 0.1);
+  --color-hover: rgb(28 28 28 / 0.05);
+
+  --color-brand: #1c1c1c;
+  --color-stat-blue: #e3f5ff;
+  --color-stat-purple: #e5ecf6;
+
+  --color-accent-blue: #a0bce8;
+  --color-accent-mint: #6be6d3;
+  --color-accent-cyan: #2ecdff;
+  --color-accent-purple: #b899eb;
+  --color-accent-green: #71dd8c;
+
+  --color-status-pending: #59a8d4;
+  --color-status-shipped: #8a8cd9;
+  --color-status-delivered: #4aa785;
+  --color-status-cancelled: #8e8e8e;
+
+  --color-danger: #ff4747;
+
+  --radius-card: 16px;
+  --radius-control: 8px;
+
+  --spacing-sidebar: 212px;
+  --spacing-topbar: 68px;
+}
+
+.dark {
+  --color-page: #1c1c1c;
+  --color-card: rgb(255 255 255 / 0.05);
+  --color-ink: #ffffff;
+  --color-muted: rgb(255 255 255 / 0.4);
+  --color-line: rgb(255 255 255 / 0.1);
+  --color-hover: rgb(255 255 255 / 0.08);
+}
